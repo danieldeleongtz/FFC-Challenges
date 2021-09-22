@@ -1,6 +1,7 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "Daniel De León",
+	"description": "This is a example of description for project of FCC Certification",
 	"dependencies": {
 		"express": "^4.14.0"
 	},
