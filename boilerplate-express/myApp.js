@@ -6,7 +6,10 @@ console.log('Hello World');
 
 
 app.get('/', (req, res) => {
-    res.send('Hello Express');
+    absolutePath = __dirname + '/views/index.html';
+    console.log(absolutePath);
+    //res.send('Hello Express');
+    res.sendFile(absolutePath);
 });
 
 
